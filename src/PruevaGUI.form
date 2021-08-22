@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="PruevaGUI">
+  <grid id="27dc6" binding="panel1" default-binding="true" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+    <constraints>
+      <xy x="20" y="138" width="839" height="282"/>
+    </constraints>
+    <properties/>
+    <border type="line" title="PRUEBA1">
+      <font/>
+      <color color="-14567493"/>
+    </border>
+    <children>
+      <component id="ab166" class="javax.swing.JTextField" binding="escribeAquiTextField" default-binding="true">
+        <constraints/>
+        <properties>
+          <columns value="10"/>
+          <text value="escribe aqui"/>
+        </properties>
+      </component>
+      <component id="984b3" class="javax.swing.JLabel" binding="texto_fijo">
+        <constraints/>
+        <properties>
+          <horizontalAlignment value="0"/>
+          <horizontalTextPosition value="0"/>
+          <text value="Hola"/>
+        </properties>
+      </component>
+      <component id="124ec" class="javax.swing.JButton" binding="BOTONButton" default-binding="true">
+        <constraints/>
+        <properties>
+          <foreground color="-4507071"/>
+          <text value="BOTON"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
